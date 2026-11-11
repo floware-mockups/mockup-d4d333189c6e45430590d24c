@@ -1,0 +1,189 @@
+{
+  "title": "Registro delle domande di contributo",
+  "description": "Gestione e monitoraggio delle domande di contributo economico per affitto, utenze ed emergenze. Dati dimostrativi interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Quadro sintetico delle pratiche registrate e del loro stato.",
+      "metrics": [
+        {
+          "label": "Domande totali",
+          "value": "8"
+        },
+        {
+          "label": "In valutazione",
+          "value": "3"
+        },
+        {
+          "label": "Approvate",
+          "value": "3"
+        },
+        {
+          "label": "Importo proposto",
+          "value": "€ 5.240"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Tipo contributo",
+        "Assistente di riferimento",
+        "Importo proposto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2041",
+          "Affitto",
+          "Lumo Riva",
+          "€ 900",
+          "In valutazione"
+        ],
+        [
+          "PR-2042",
+          "Utenze",
+          "Vela Neri",
+          "€ 420",
+          "Approvata"
+        ],
+        [
+          "PR-2043",
+          "Emergenza",
+          "Nubi Sera",
+          "€ 750",
+          "Da integrare"
+        ],
+        [
+          "PR-2044",
+          "Affitto",
+          "Lumo Riva",
+          "€ 1.100",
+          "Approvata"
+        ],
+        [
+          "PR-2045",
+          "Utenze",
+          "Oria Pini",
+          "€ 380",
+          "Respinta"
+        ],
+        [
+          "PR-2046",
+          "Emergenza",
+          "Vela Neri",
+          "€ 640",
+          "In valutazione"
+        ],
+        [
+          "PR-2047",
+          "Affitto",
+          "Nubi Sera",
+          "€ 800",
+          "Approvata"
+        ],
+        [
+          "PR-2048",
+          "Utenze",
+          "Oria Pini",
+          "€ 250",
+          "In valutazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "domande",
+      "title": "Domande",
+      "description": "Elenco filtrabile delle richieste. Ricerca per codice pratica e filtri per tipo di contributo e stato.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Tipo contributo",
+        "Assistente di riferimento",
+        "Importo proposto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "PR-2041",
+          "Affitto",
+          "Lumo Riva",
+          "€ 900",
+          "In valutazione"
+        ],
+        [
+          "PR-2042",
+          "Utenze",
+          "Vela Neri",
+          "€ 420",
+          "Approvata"
+        ],
+        [
+          "PR-2043",
+          "Emergenza",
+          "Nubi Sera",
+          "€ 750",
+          "Da integrare"
+        ],
+        [
+          "PR-2044",
+          "Affitto",
+          "Lumo Riva",
+          "€ 1.100",
+          "Approvata"
+        ],
+        [
+          "PR-2045",
+          "Utenze",
+          "Oria Pini",
+          "€ 380",
+          "Respinta"
+        ],
+        [
+          "PR-2046",
+          "Emergenza",
+          "Vela Neri",
+          "€ 640",
+          "In valutazione"
+        ],
+        [
+          "PR-2047",
+          "Affitto",
+          "Nubi Sera",
+          "€ 800",
+          "Approvata"
+        ],
+        [
+          "PR-2048",
+          "Utenze",
+          "Oria Pini",
+          "€ 250",
+          "In valutazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-domanda",
+      "title": "Nuova domanda",
+      "description": "Inserisci una domanda di contributo economico. I valori in elenco possono essere selezionati o filtrati durante la consultazione.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Tipo contributo",
+        "Assistente di riferimento",
+        "Importo proposto",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Tipo contributo",
+        "Assistente di riferimento",
+        "Importo proposto",
+        "Stato"
+      ]
+    }
+  ]
+}
